@@ -25,6 +25,10 @@ const resources = {
         localization: {
           title: "Localization",
           description: "We adapt websites and software to align with target languages, cultures, and standards"
+        },
+        postediting: {
+          title: "Post-editing",
+          description: "We refine machine-translated texts by correcting errors, improving fluency, and ensuring they meet professional standards"
         }
       }
     }
@@ -52,6 +56,10 @@ const resources = {
         localization: {
           title: "Localisation",
           description: "Nous adaptons les sites web et les logiciels pour les aligner aux langues, cultures et normes cibles"
+        },
+        postediting: {
+          title: "Post-édition",
+          description: "Nous affinons les textes traduits automatiquement en corrigeant les erreurs, améliorant la fluidité et assurant qu'ils répondent aux normes professionnelles"
         }
       }
     }
@@ -62,7 +70,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en", // default language
+    lng: "en",
     fallbackLng: "en",
     interpolation: {
       escapeValue: false

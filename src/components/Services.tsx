@@ -1,4 +1,4 @@
-import { Globe2, Headphones, FileText, Video, Monitor } from "lucide-react";
+import { Globe2, Headphones, FileText, Video, Monitor, Edit } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const services = [
@@ -21,6 +21,10 @@ const services = [
   {
     icon: Monitor,
     key: "localization"
+  },
+  {
+    icon: Edit,
+    key: "postediting"
   }
 ];
 
@@ -33,7 +37,7 @@ export const Services = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           {t('services.title')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-[280px] mx-auto md:max-w-none">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[280px] mx-auto md:max-w-none">
           {services.map((service) => (
             <div key={service.key} className="service-card text-center flex flex-col items-center">
               <service.icon className="w-12 h-12 text-primary mb-4" />
