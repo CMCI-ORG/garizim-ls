@@ -54,10 +54,13 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en",
+    lng: "en", // default language
     fallbackLng: "en",
     interpolation: {
       escapeValue: false
+    },
+    react: {
+      useSuspense: false // This is important to prevent issues with SSR
     }
   });
 
