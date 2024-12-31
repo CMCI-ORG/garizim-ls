@@ -29,7 +29,11 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded-full"></div>
+              <img 
+                src="/lovable-uploads/6f8fdd37-de38-4bed-bee5-a2d9657e5603.png" 
+                alt="Garizim Solutions Logo" 
+                className="h-8 w-auto"
+              />
               <span className="font-bold text-lg">G@RIZIM SOLUTIONS</span>
             </div>
           </div>
