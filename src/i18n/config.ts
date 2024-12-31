@@ -23,7 +23,7 @@ const resources = {
           description: "Specialized audiovisual translation across multiple languages"
         },
         localization: {
-          title: "Software Localization",
+          title: "Localization",
           description: "We adapt websites and software to align with target languages, cultures, and standards"
         }
       }
@@ -50,7 +50,7 @@ const resources = {
           description: "Traduction audiovisuelle spécialisée dans plusieurs langues"
         },
         localization: {
-          title: "Localisation de Logiciels",
+          title: "Localisation",
           description: "Nous adaptons les sites web et les logiciels pour les aligner aux langues, cultures et normes cibles"
         }
       }
