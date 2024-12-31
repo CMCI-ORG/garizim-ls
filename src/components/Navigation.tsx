@@ -32,7 +32,7 @@ export const Navigation = () => {
               <img 
                 src="/lovable-uploads/6f8fdd37-de38-4bed-bee5-a2d9657e5603.png" 
                 alt="Garizim Solutions Logo" 
-                className="h-8 w-auto"
+                className="h-8 w-auto mix-blend-multiply"
               />
               <span className="font-bold text-lg">G@RIZIM SOLUTIONS</span>
             </div>
