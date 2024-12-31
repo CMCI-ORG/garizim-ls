@@ -24,7 +24,7 @@ const resources = {
         },
         localization: {
           title: "Software Localization",
-          description: "Professional software and website localization services, specializing in English and French markets"
+          description: "We adapt websites and software to align with target languages, cultures, and standards"
         }
       }
     }
@@ -51,7 +51,7 @@ const resources = {
         },
         localization: {
           title: "Localisation de Logiciels",
-          description: "Services professionnels de localisation de logiciels et de sites web, spécialisés pour les marchés anglophone et francophone"
+          description: "Nous adaptons les sites web et les logiciels pour les aligner aux langues, cultures et normes cibles"
         }
       }
     }
