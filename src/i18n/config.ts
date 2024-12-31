@@ -8,7 +8,7 @@ const resources = {
         title: "Our Services",
         translation: {
           title: "Translation",
-          description: "Professional translation services between English, French, Spanish, and German, specializing in software localization and website translation"
+          description: "Professional translation services between English, French, Spanish, and German"
         },
         interpreting: {
           title: "Interpreting",
@@ -21,6 +21,10 @@ const resources = {
         audiovisual: {
           title: "Audiovisual Translation",
           description: "Specialized audiovisual translation across multiple languages"
+        },
+        localization: {
+          title: "Software Localization",
+          description: "Professional software and website localization services, specializing in English and French markets"
         }
       }
     }
@@ -31,7 +35,7 @@ const resources = {
         title: "Nos Services",
         translation: {
           title: "Traduction",
-          description: "Services de traduction professionnelle entre anglais, français, espagnol et allemand, spécialisés dans la localisation de logiciels et la traduction de sites web"
+          description: "Services de traduction professionnelle entre anglais, français, espagnol et allemand"
         },
         interpreting: {
           title: "Interprétation",
@@ -44,6 +48,10 @@ const resources = {
         audiovisual: {
           title: "Traduction Audiovisuelle",
           description: "Traduction audiovisuelle spécialisée dans plusieurs langues"
+        },
+        localization: {
+          title: "Localisation de Logiciels",
+          description: "Services professionnels de localisation de logiciels et de sites web, spécialisés pour les marchés anglophone et francophone"
         }
       }
     }
@@ -60,7 +68,7 @@ i18n
       escapeValue: false
     },
     react: {
-      useSuspense: false // This is important to prevent issues with SSR
+      useSuspense: false
     }
   });
 
