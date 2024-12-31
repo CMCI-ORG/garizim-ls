@@ -8,7 +8,7 @@ const resources = {
         title: "Our Services",
         translation: {
           title: "Translation",
-          description: "Professional translation services between English, French, Spanish, and German"
+          description: "Professional translation services between English, French, Spanish, and German, specializing in software localization and website translation"
         },
         interpreting: {
           title: "Interpreting",
@@ -31,7 +31,7 @@ const resources = {
         title: "Nos Services",
         translation: {
           title: "Traduction",
-          description: "Services de traduction professionnelle entre anglais, français, espagnol et allemand"
+          description: "Services de traduction professionnelle entre anglais, français, espagnol et allemand, spécialisés dans la localisation de logiciels et la traduction de sites web"
         },
         interpreting: {
           title: "Interprétation",
