@@ -25,7 +25,7 @@ export const FAQ = () => {
     },
     {
       question: "What industries do you serve?",
-      answer: "We serve a wide range of industries including legal, medical, technical, marketing, and academic sectors. Our translators are specialized in various fields to ensure accurate terminology usage.",
+      answer: "We serve a wide range of industries including legal, medical, technical, marketing, academic, healthcare, and IT sectors. Our translators are specialized in various fields to ensure accurate terminology usage and domain-specific knowledge.",
     },
   ];
 
