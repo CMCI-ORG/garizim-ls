@@ -17,6 +17,7 @@ export const Navigation = () => {
     { label: "Services", id: "services" },
     { label: "About", id: "about" },
     { label: "Team", id: "team" },
+    { label: "Quote", id: "quote" },
     { label: "FAQ", id: "faq" },
     { label: "Contact", id: "contact" },
   ];
