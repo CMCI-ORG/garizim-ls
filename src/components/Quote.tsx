@@ -12,16 +12,23 @@ export const Quote = () => {
     e.preventDefault();
     setLoading(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const service = formData.get('service');
+    const message = formData.get('message');
+
+    const mailtoLink = `mailto:contact@garizim.com?subject=Quote Request from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AService: ${service}%0D%0A%0D%0AProject Details:%0D%0A${message}`;
+    
+    window.location.href = mailtoLink;
     
     toast({
-      title: "Quote Request Submitted",
-      description: "We'll get back to you within 24 hours.",
+      title: "Quote Request Ready",
+      description: "Opening your email client to send the request.",
     });
     
     setLoading(false);
-    (e.target as HTMLFormElement).reset();
+    e.currentTarget.reset();
   };
 
   return (
@@ -32,17 +39,18 @@ export const Quote = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label htmlFor="name" className="block mb-2">Name</label>
-              <Input id="name" required placeholder="Your name" />
+              <Input id="name" name="name" required placeholder="Your name" />
             </div>
             <div>
               <label htmlFor="email" className="block mb-2">Email</label>
-              <Input id="email" type="email" required placeholder="Your email" />
+              <Input id="email" name="email" type="email" required placeholder="Your email" />
             </div>
           </div>
           <div>
             <label htmlFor="service" className="block mb-2">Service Required</label>
             <select
               id="service"
+              name="service"
               required
               className="w-full h-10 px-3 rounded-md border border-input bg-background"
             >
@@ -57,6 +65,7 @@ export const Quote = () => {
             <label htmlFor="message" className="block mb-2">Project Details</label>
             <Textarea
               id="message"
+              name="message"
               required
               placeholder="Please describe your project and requirements"
               className="min-h-[150px]"
