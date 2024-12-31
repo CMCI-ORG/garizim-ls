@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { Phone, Mail, MapPin, MessageSquare } from "lucide-react";
+import { Phone, Mail, MapPin, MessageSquare, Linkedin, Instagram, Facebook } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -28,6 +28,20 @@ export const Contact = () => {
               <div>
                 <h3 className="font-semibold">Location</h3>
                 <p className="text-muted-foreground">Yaounde, Cameroon</p>
+              </div>
+            </div>
+            <div className="pt-4">
+              <h3 className="font-semibold mb-3">Follow Us</h3>
+              <div className="flex gap-4">
+                <a href="https://linkedin.com/company/garizim-language-solutions" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80">
+                  <Linkedin className="w-6 h-6" />
+                </a>
+                <a href="https://instagram.com/garizimls" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80">
+                  <Instagram className="w-6 h-6" />
+                </a>
+                <a href="https://facebook.com/garizimls" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80">
+                  <Facebook className="w-6 h-6" />
+                </a>
               </div>
             </div>
           </div>
