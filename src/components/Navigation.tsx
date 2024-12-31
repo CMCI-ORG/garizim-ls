@@ -30,7 +30,7 @@ export const Navigation = () => {
           <div className="flex-shrink-0">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-primary rounded-full"></div>
-              <span className="font-bold text-lg">GLS</span>
+              <span className="font-bold text-lg">G@RIZIM SOLUTIONS</span>
             </div>
           </div>
 
